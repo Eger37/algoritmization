@@ -103,7 +103,7 @@ def insertion_sort(a_copy, up=True):  # сортировка вставками
 
 
 way = input("Введіть \"skip\", якщо ви не хочете вводити значення з клавіатури: ")
-if "skip" == way:  # ручной ввод списка
+if "skip" != way:  # ручной ввод списка
     while True:
         stop = my_int_input("Введіть довжину списку: ")
         if stop > 30:
@@ -159,5 +159,5 @@ a_output = insertion_sort(a, up=False)
 stop = time()  # время во время остановки
 print(f"Час роботи функції: {start - stop}")  # разница - это время работы этой фунции
 
-if "skip" == way:
+if "skip" != way:
     print(f"Відсортований список: {a_output}")
