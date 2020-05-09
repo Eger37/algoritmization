@@ -142,61 +142,61 @@ my_turtle.left(90)
 my_turtle.forward(40)
 my_turtle.end_fill()
 colours = "#4169E1", "#FFA500","#7B68EE","#BA55D3", "#FFFF00","#FF4500","#FF6347", "#1E90FF", "#00FF00"
-for i in range(0, 22):
+for i in range(0, 16):
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -50 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -50 - shift)
     my_turtle.color(colours[i % len(colours)])
     my_turtle.pendown()
     my_turtle.pensize(3)
-    my_turtle.goto(-73 + (i * 7), -35 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -35 - shift)
 colours_of_fire = "#FFA500", "#FF8C00", "#FF4500","#FF6347"
-for i in range(0, 22):
+for i in range(0, 16):
 
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -33 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -33 - shift)
     my_turtle.color("#FFA500")
     my_turtle.pendown()
     my_turtle.pensize(3)
-    my_turtle.goto(-73 + (i * 7), -29 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -29 - shift)
 
-for i in range(0, 22):
+for i in range(0, 16):
     # низ пламени
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -33 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -33 - shift)
     my_turtle.color("#4682B4")
     my_turtle.pendown()
-    my_turtle.pensize(3)
-    my_turtle.goto(-73 + (i * 7), -32 - shift)
+    my_turtle.pensize(4)
+    my_turtle.goto(-72 + (i * 9.5), -32 - shift)
     # сердинка пламени
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -31 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -31 - shift)
     my_turtle.color("#FF4500")
     my_turtle.pendown()
     my_turtle.pensize(5)
-    my_turtle.goto(-73 + (i * 7), -29 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -29 - shift)
     # сердинка пламени
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -29 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -29 - shift)
     my_turtle.color("#FF4500")
     my_turtle.pendown()
     my_turtle.pensize(4)
-    my_turtle.goto(-73 + (i * 7), -26 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -26 - shift)
     # сердинка пламени
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -28 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -28 - shift)
     my_turtle.color("#FF4500")
     my_turtle.pendown()
     my_turtle.pensize(3)
-    my_turtle.goto(-73 + (i * 7), -25 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -25 - shift)
 
     # верхушка пламени
     my_turtle.penup()
-    my_turtle.goto(-73 + (i * 7), -31 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -31 - shift)
     # my_turtle.color("#FFA500")
     my_turtle.color(colours_of_fire[i % len(colours_of_fire)])
     my_turtle.pendown()
     my_turtle.pensize(3)
-    my_turtle.goto(-73 + (i * 7), -27 - shift)
+    my_turtle.goto(-72 + (i * 9.5), -27 - shift)
 
 # # draw candles
 # my_turtle.penup()
@@ -236,7 +236,7 @@ for i in range(0, 22):
 
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 160 - shift)
+my_turtle.goto(-330, 160 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -244,7 +244,7 @@ my_turtle.write(
     font=("Helvetica", 24, "bold"))
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 130 - shift)
+my_turtle.goto(-330, 130 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -252,7 +252,7 @@ my_turtle.write(
     font=("Helvetica", 18, "bold"))
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 110 - shift)
+my_turtle.goto(-330, 110 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -260,7 +260,7 @@ my_turtle.write(
     font=("Helvetica", 18, "bold"))
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 90 - shift)
+my_turtle.goto(-330, 90 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -269,7 +269,7 @@ my_turtle.write(
 
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 70 - shift)
+my_turtle.goto(-330, 70 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -278,7 +278,7 @@ my_turtle.write(
 
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 50 - shift)
+my_turtle.goto(-330, 50 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -287,7 +287,7 @@ my_turtle.write(
 
 # print message
 my_turtle.penup()
-my_turtle.goto(-300, 30 - shift)
+my_turtle.goto(-330, 30 - shift)
 my_turtle.color("grey")
 my_turtle.pendown()
 my_turtle.write(
@@ -299,4 +299,4 @@ my_turtle.penup()
 my_turtle.goto(-250, 250)
 time.sleep(10)
 
-# from https://pycoder.ru/happy-birthday-with-python-turtle/
+# partially from https://pycoder.ru/happy-birthday-with-python-turtle/
