@@ -297,6 +297,6 @@ my_turtle.write(
 # send the turtle to the corner
 my_turtle.penup()
 my_turtle.goto(-250, 250)
-time.sleep(10)
+time.sleep(60)
 
 # partially from https://pycoder.ru/happy-birthday-with-python-turtle/
